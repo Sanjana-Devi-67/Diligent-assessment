@@ -1,0 +1,27 @@
+# Prompts Used to Generate Technical Documentation and Code Base
+
+1. "U see the artifacts to deliver. So basically we have 25 mins to do it. What's the plan. Guide me like I am a beginner. We gotta build from scratch and push to GitHub."
+
+2. "I want all the features of an e-commerce website including authentication login and search functionality."
+
+3. "U think this will impress them?"
+
+4. "Hey give me full proper code for the mentioned task with impressive UI."
+
+5. "Similarly, I want prompts.txt, with whatever prompts I gave you, just like the code we write in README.md for GitHub."
+
+# Additional Clarifying Direction Provided During Development:
+- The backend should be built using Node.js and Express.js.
+- The frontend should be built using React.js with React Router for navigation.
+- Products must be fetched from a backend API endpoint.
+- Basic state management should be used to maintain cart functionality.
+- Authentication should use JWT and be persisted using localStorage.
+- UI should be clean, modern, and responsive without needing a CSS framework.
+- Search must be implemented to filter products by name, category, or description.
+- Cart should persist in localStorage and support quantity updates and total price calculation.
+
+# Purpose of Prompts
+These prompts guided the generation of:
+- The backend REST API with authentication and product management.
+- The frontend application architecture, routing, UI layout, and cart state logic.
+- The overall technical architecture design and implementation details.
