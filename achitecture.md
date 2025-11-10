@@ -15,8 +15,14 @@ The system is split into two layers:
 | **Storage** | localStorage (Demo Mode) | Persists cart + session token |
 
 ---
+## 2.This architecture ensures the application is:
 
-## 2. Architecture Diagram
+- Simple to deploy
+- Easy to maintain
+- Scalable for future enhancements
+
+---
+## 3. Architecture Diagram
 
 ```mermaid
 flowchart LR
