@@ -62,7 +62,7 @@ ecommerce-sample/
 
 ## Architecture (High level)
 
-```
+
 ```mermaid
 flowchart LR
     User --> Browser[React Frontend]
