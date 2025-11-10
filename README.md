@@ -75,9 +75,4 @@ ecommerce-sample/
 - `GET  /api/products/:id` → `{item}`
 - `GET  /api/search?q=...` → `{items}`
 
-## Prompts used (for evaluation traceability)
-- "Create a full‑stack mini e‑commerce with auth, search, cart, and an impressive UI suitable for a 25‑minute hack demo."
-- "Generate React (Vite) and Express code with JWT auth and in‑memory data; provide setup steps and architecture doc."
-- "Design a clean, modern, responsive UI without heavy CSS frameworks."
-```
 
