@@ -63,10 +63,15 @@ ecommerce-sample/
 ## Architecture (High level)
 
 ```
-[React UI] --fetch--> [Express API] --(in-memory demo)--> Products & Users
-         \-- localStorage --> cart & auth tokens
-```
+```mermaid
+flowchart LR
+    User --> Browser[React Frontend]
+    Browser -- fetch/axios --> API[Express Backend]
+    API --> UserDB[(Users Memory Store)]
+    API --> ProductDB[(Products JSON Store)]
+    Browser --> LocalStorage[(localStorage Cart + JWT Token)]
 
+```
 ### API Endpoints
 - `POST /api/auth/register` → `{token, user}`
 - `POST /api/auth/login` → `{token, user}`
